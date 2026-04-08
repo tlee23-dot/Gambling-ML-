@@ -6,3 +6,4 @@ __pycache__/
 # Generated data artifacts
 data/raw/*.csv
 !data/raw/.gitkeep
+!data/raw/synthetic_gambling_data.csv
