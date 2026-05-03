@@ -19,7 +19,7 @@ Run:
 
 ## Target Variable
 
-- Column: `future_high_risk_flag`
+- Column: `risk_profile`
 - Type: binary (`0` or `1`)
 - Logic: derived from a weighted risk score using:
   - `chase_magnitude_index`
