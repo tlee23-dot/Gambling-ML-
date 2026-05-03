@@ -159,7 +159,7 @@ def generate_synthetic_gambling_data(n_players: int = 1_000, seed: int = 42) -> 
 def main() -> None:
     output_dir = Path("data/raw")
     output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = output_dir / "synthetic_gambling_history_complete.csv"
+    output_file = output_dir / "synthetic_gambling_data.csv"
 
     df = generate_synthetic_gambling_data(n_players=1000)
     
